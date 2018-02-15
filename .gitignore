@@ -191,5 +191,7 @@ Session.vim
 # auto-generated tag files
 tags
 
+#csv files to prevent large commits
+*.csv
 
 # End of https://www.gitignore.io/api/vim,linux,emacs,python
