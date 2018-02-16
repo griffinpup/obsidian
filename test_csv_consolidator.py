@@ -2,7 +2,7 @@ import unittest
 import os
 import csv_consolidator
 
-class TestCsvConsolidator(unittest.TestCase):
+class test_csv_consolidator(unittest.TestCase):
 
     def test_consolidate_CSV(self):    
         with open("test.csv", "w") as output:
